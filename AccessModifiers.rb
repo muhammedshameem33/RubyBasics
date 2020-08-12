@@ -7,12 +7,17 @@ class Demo
   public
   def method2
     puts "called public method2"
-    method3
+    self.method3
+  end
+  #protected method
+  def method3
+    puts "called from method2"
+    method4
   end
   #private method
   private
-  def method3
-    puts "called private method3 from method2"
+  def method4
+    puts "called private method4 from method3"
   end
 end
 
