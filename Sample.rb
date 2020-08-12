@@ -1,8 +1,8 @@
 class Sample
-  def sayHello
+  def say_hello
     puts "Hello"
   end
 end
 
 obj=Sample.new
-puts obj.sayHello
+puts obj.say_hello
